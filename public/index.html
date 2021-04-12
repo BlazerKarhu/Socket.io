@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test socket.io</title>
+
+</head>
+
+<body>
+    <div>
+        <form action="">
+            username: <input type="text" id="user" autocomplete="off">
+            <input type="submit" value="Set username" id="usernamebutton"><br>
+            message: <input type="text" id="m" autocomplete="off">
+            <input type="submit" id="input">
+        </form>
+        messages:
+        <ul id="messages"></ul>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat.js"></script>
+
+</body>
+
+</html>
